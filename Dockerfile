@@ -1,7 +1,7 @@
 FROM debian:12
 
 # Change openwrt-tag here or use args during build or git checkout in the container
-ARG OPENWRT_TAG=v23.05.3
+ARG OPENWRT_TAG=v23.05.5
 
 # install dependencies
 RUN apt-get update \
