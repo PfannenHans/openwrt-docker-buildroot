@@ -15,7 +15,9 @@ RUN apt-get update \
             libssl-dev \
             python3 \
             python3-distutils \
+            python3-setuptools \
             rsync \
+            swig \
             unzip \
             wget \
             xsltproc \
